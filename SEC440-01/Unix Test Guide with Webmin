@@ -1,14 +1,1 @@
-:toc: left
-= Test Lab Guide: Ubuntu 20.04 LTS
 
-== Abstract 
-
-This Test Lab Guide (TLG) will provide the user with step-by-step instructions on how to configure a basic network configuration using Ubuntu 20.04 LTS servers and an Ubuntu 20.04 LTS client. The resulting test lab environment will provide a stable base for building other test labs. It is recommended that users preserve the start of their test machines once this walk-through has been successfully completed. In a physical environment the hard drive of the machine can be imaged. In a virtual environment, the “snapshot” or equivalent feature can be used to preserve the current state of the operating system. Preserving the working conditions of the basic test lab will allow the user to experiment without fear of having to completely rebuild their environment. The ultimate goal of the TLG is to familiarize the user with the Ubuntu 20.04 LTS Operating system and how to deploy common network services based on that operating system, and ultimately enable the user to conduct their own experiments in an Ubuntu 20.04LTS based environment.
-
-== Introduction 
-
-The purpose of the Test Lab Guides (TLGs) is providing users with practical guidelines for deploying current operating systems in a way that results in a functional configuration. Using a TLG will instruct the user in which servers to create, how to configure the operating systems and services, and how to install and configure additional software. A TLG experience enables the user to experience the entire set-up process from start to finish.  
-
-This TLG is written with the goals of reusability and extensibility in mind. The purpose of this particular TLG is to enable the creation of a basic network utilizing Ubuntu 20.04 LTS as the central operating system. Once this network is complete several other TLGs can be built on top of this base configuration.  
-
-Once this lab is completed, it would be wise to save the initial configuration. How this is best done will depend on how the test environment was originally deployed. A physical environment can be preserved by imaging the drives of each machine to be stored in a separate location and retrieved when needed. In a network deployed virtually, a snapshot can be taken of each machine. This will preserve the current settings and configurations. Preserving the lab in a functional state is important, because it allows for a functional configuration to be restored without completely repeating the base lab configuration steps. This is helpful for correcting after a mistake or generating a test environment for a new product.
